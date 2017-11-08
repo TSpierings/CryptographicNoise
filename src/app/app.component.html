@@ -1,0 +1,5 @@
+<div class="container">
+  <canvas #glCanvas></canvas>
+  <div class="button" *ngIf="!playingSound" (click)="playNoise()">Click to hear noise!</div>
+  <div class="button" *ngIf="playingSound" (click)="playNoise()">Click to stop noise..</div>
+</div>
